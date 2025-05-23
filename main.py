@@ -5,6 +5,29 @@ import time
 from datetime import datetime
 from modulos import acessos_modulos
 
+def aviso_ciberseguranca():
+    cabecalho("🔒 AVISO DE CIBERSEGURANÇA E PROTEÇÃO DE DADOS 🔒")
+    imprimir_lento("""
+Este programa é educativo e ensina práticas seguras no uso do computador e da internet.
+
+📌 Dicas de Cibersegurança:
+- Nunca compartilhe senhas ou dados pessoais.
+- Evite clicar em links desconhecidos ou suspeitos.
+- Use antivírus e mantenha seu sistema atualizado.
+- Desconfie de promessas muito boas para serem verdade.
+
+🛡️ Sobre a LGPD (Lei Geral de Proteção de Dados):
+- Seus dados pessoais devem ser protegidos.
+- Você tem direito à privacidade e à informação.
+- Este programa não coleta nem compartilha dados.
+
+Ao usar este programa, você concorda em praticar um uso seguro e consciente da tecnologia.
+""")
+    input("\nPressione ENTER para continuar...")
+
+aviso_ciberseguranca()
+
+
 def verificar_senha():
     """
     Solicita uma senha do usuário antes de iniciar o programa.
